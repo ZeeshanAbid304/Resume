@@ -1,25 +1,25 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: #f5f7fa;
     margin: 0;
     padding: 0;
+    background: #f2f4f7;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
-    max-width: 850px;
+.card {
+    max-width: 520px;
     background: #ffffff;
-    margin: 40px auto;
+    margin: 60px auto;
     padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    border-radius: 12px;
     text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
 }
 
-.profile-img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
+.avatar {
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
+    object-fit: cover;
     margin-bottom: 15px;
 }
 
@@ -29,44 +29,40 @@ h1 {
 
 h2 {
     margin: 0;
-    color: #555;
     font-weight: normal;
+    color: #555;
 }
 
-.intro {
+.summary {
     margin: 15px 0;
     color: #333;
+    font-size: 15px;
 }
 
-.section {
-    text-align: left;
-    margin-top: 30px;
+h3 {
+    margin-top: 15px;
+    margin-bottom: 8px;
 }
 
-.section h3 {
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 5px;
-    color: #222;
+p {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.6;
 }
 
-ul {
-    padding-left: 20px;
+.year {
+    color: #777;
+    font-size: 13px;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 6px;
-}
-
-a {
-    color: #0066cc;
-    text-decoration: none;
+hr {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 20px 0;
 }
 
 footer {
-    margin-top: 40px;
+    margin-top: 25px;
+    font-size: 13px;
     color: #777;
-    font-size: 14px;
-    text-align: center;
 }
