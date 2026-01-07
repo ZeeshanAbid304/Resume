@@ -1,74 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Zeeshan Abid | Software Engineer</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Zeeshan Abid | Software Engineer (Android)</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<div class="card">
+<div id="main_container">
 
-    <img src="profile.jpg" alt="Zeeshan Abid" class="avatar">
+  <!-- HEADER -->
+  <div id="header">
+    <div class="header_logotype_container">
+      <h1 class="logotype_name">Zeeshan <span class="purple">Abid</span></h1>
+      <h2 class="logotype_occupation">Software Engineer (Android)</h2>
+    </div>
 
-    <h1>Zeeshan Abid</h1>
-    <h2>Software Engineer (Android)</h2>
+    <div class="header_menu_container">
+      <ul class="download_print_buttons horizontal_list">
+        <li><a href="#"><span class="icon entypo-download"></span>Download CV</a></li>
+        <li><a href="#"><span class="icon entypo-print"></span>Print CV</a></li>
+      </ul>
+      <div class="clear"></div>
 
-    <p class="summary">
-        Experienced and reliable Software Engineer with strong expertise in Android development.
-        Passionate about building high-quality mobile applications and learning new technologies.
-    </p>
+      <ul class="header_menu horizontal_list">
+        <li><a class="no_border purple" href="#">Profile</a></li>
+        <li><a href="#">Education</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Experience</a></li>
+        <li><a href="#">Projects</a></li>
+      </ul>
+    </div>
+  </div>
 
-    <hr>
+  <!-- LEFT COLUMN -->
+  <div id="left_col">
 
-    <p><strong>Email:</strong> zeeshan.abid752@gmail.com</p>
-    <p><strong>Phone:</strong> +92 303 5899304</p>
-    <p><strong>Location:</strong> Islamabad, Pakistan</p>
+    <div class="profile_frame">
+      <div class="profile_picture"></div>
+    </div>
 
-    <hr>
+    <div class="hello_content">
+      <h2>Hello!</h2>
+      <p>
+        Experienced and reliable Software Engineer specializing in Android development.
+        Passionate about building high-performance mobile apps, clean architecture,
+        and modern UI/UX.
+      </p>
+    </div>
 
-    <h3>Skills</h3>
-    <p>
-        Java • Kotlin • C++ • Firebase • Google Ads • Crashlytics •  
-        In-App Purchase • Ads Integration • Firebase Analytics • FCM •  
-        REST APIs • HTML • CSS • JavaScript
-    </p>
+    <div class="contact_details_content">
+      <h2>Contact Details</h2>
 
-    <hr>
+      <p class="purple">Phone</p>
+      <p>+92 303 5899304</p>
 
-    <h3>Education</h3>
+      <p class="purple">Email</p>
+      <p>zeeshan.abid752@gmail.com</p>
 
-    <p>
+      <p class="purple">Location</p>
+      <p>Islamabad, Pakistan</p>
+    </div>
+
+    <a href="mailto:zeeshan.abid752@gmail.com" class="send_message_button">
+      <span class="cut1"></span>
+      <span class="cut2"></span>
+      <span class="content">
+        Send me a message <span class="fontawesome-double-angle-right"></span>
+      </span>
+    </a>
+
+  </div>
+
+  <!-- CONTENT -->
+  <div id="content_container">
+
+    <!-- PROFILE -->
+    <div class="block">
+      <h1>Profile</h1>
+      <blockquote class="profile_quote">
+        <p>
+          "Quality is never an accident; it is always the result of intelligent effort."
+        </p>
+        <p>— John Ruskin</p>
+        <span class="entypo-quote"></span>
+      </blockquote>
+    </div>
+
+    <div class="block">
+      <h2>About Me</h2>
+      <p>
+        I am a Software Engineer with strong expertise in Android development.
+        I have experience working with REST APIs, Firebase services, Google Maps,
+        ads monetization, and scalable mobile architectures.
+        I enjoy learning new technologies and building apps that solve real-world problems.
+      </p>
+    </div>
+
+    <div class="horizontal_line">
+      <div class="line_left"></div>
+      <div class="left_circle"></div>
+      <div class="central_circle"></div>
+      <div class="right_circle"></div>
+      <div class="line_right"></div>
+    </div>
+
+    <!-- SKILLS -->
+    <div class="block">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li>Java, Kotlin, C++</li>
+        <li>Android SDK, Jetpack, MVVM</li>
+        <li>Firebase (Auth, FCM, Analytics, Crashlytics)</li>
+        <li>REST APIs & JSON</li>
+        <li>Google Maps & Mapbox</li>
+        <li>Ads Integration (AdMob, IAP)</li>
+        <li>HTML, CSS, JavaScript</li>
+      </ul>
+    </div>
+
+    <div class="horizontal_line">
+      <div class="line_left"></div>
+      <div class="left_circle"></div>
+      <div class="central_circle"></div>
+      <div class="right_circle"></div>
+      <div class="line_right"></div>
+    </div>
+
+    <!-- EDUCATION -->
+    <div class="block">
+      <h2>Education</h2>
+
+      <p>
         <strong>BS Software Engineering (BSSE)</strong><br>
-        Capital University of Science & Technology, Islamabad, Pakistan<br>
-        <span class="year">2020</span>
-    </p>
+        Capital University of Science & Technology, Islamabad<br>
+        <span class="purple">2020</span>
+      </p>
 
-    <p>
+      <p>
         <strong>Intermediate (F.Sc Pre-Engineering)</strong><br>
-        Board of Intermediate & Secondary Education, Chakwal, Pakistan<br>
-        <span class="year">2015</span>
-    </p>
+        BISE Chakwal<br>
+        <span class="purple">2015</span>
+      </p>
 
-    <p>
+      <p>
         <strong>Matriculation</strong><br>
-        Board of Intermediate & Secondary Education, Rawalpindi, Pakistan<br>
-        <span class="year">2013</span>
-    </p>
+        BISE Rawalpindi<br>
+        <span class="purple">2013</span>
+      </p>
+    </div>
 
-    <hr>
+    <div class="horizontal_line">
+      <div class="line_left"></div>
+      <div class="left_circle"></div>
+      <div class="central_circle"></div>
+      <div class="right_circle"></div>
+      <div class="line_right"></div>
+    </div>
 
-    <h3>Experience</h3>
-    <p>
-        <strong>Sr Android Developer</strong> – Maksoft Technology (2024-Present)<br>
-        <strong>Android Developer</strong> – Khastech Solution (2020-2023)<br>
-        <strong>Web Developer (Intern)</strong> – Pumpkin Studio (2019)
-    </p>
+    <!-- EXPERIENCE -->
+    <div class="block">
+      <h2>Work Experience</h2>
 
-    <footer>
-        © 2025 Zeeshan Abid
-    </footer>
+      <p>
+        <strong>Sr Android Developer</strong> — Maksoft Technology<br>
+        <span class="purple">2024 – Present</span>
+      </p>
+
+      <p>
+        <strong>Android Developer</strong> — Khastech Solution<br>
+        <span class="purple">2020 – 2023</span>
+      </p>
+
+      <p>
+        <strong>Web Developer (Intern)</strong> — Pumpkin Studio<br>
+        <span class="purple">2019</span>
+      </p>
+    </div>
+
+    <div class="horizontal_line">
+      <div class="line_left"></div>
+      <div class="left_circle"></div>
+      <div class="central_circle"></div>
+      <div class="right_circle"></div>
+      <div class="line_right"></div>
+    </div>
+
+    <!-- PROJECTS -->
+    <div class="last block">
+      <h2>Featured Projects</h2>
+
+      <ul>
+        <li><strong>GPS Navigation Apps</strong> – Real-time navigation using Google Maps & Mapbox</li>
+        <li><strong>Video Downloader</strong> – REST API-based high-speed video downloads</li>
+        <li><strong>GPS Camera</strong> – Photos with live map, location & timestamps</li>
+        <li><strong>Event-Based Cards App</strong> – New Year, Eid, Christmas, Valentine, etc.</li>
+        <li><strong>Greeting Cards & Thumbnail Maker</strong></li>
+        <li><strong>AI Future Face App</strong> – REST API-based face prediction</li>
+        <li><strong>AI Background Remover</strong>– REST API-based</li>
+        <li><strong>Birthday Video Maker</strong></li>
+        <li><strong>Ringtones & Prank Sounds Apps</strong>Using Firebase</li>
+        <li><strong>VR Movies & Video Converter</strong></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="clear"></div>
+
+  <!-- FOOTER -->
+  <div id="footer">
+    <p class="footer_name">© 2025 Zeeshan Abid</p>
+  </div>
 
 </div>
 
